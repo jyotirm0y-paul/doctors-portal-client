@@ -22,7 +22,7 @@ setFile(newFile)
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:4000/addDoctor', {
+        fetch('https://floating-anchorage-03972.herokuapp.com/addDoctor', {
             method: 'POST',
             body: formData
         })
