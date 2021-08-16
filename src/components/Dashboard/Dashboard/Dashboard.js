@@ -10,7 +10,6 @@ const containerStyle = {
   height:"100%"
 }
 
-
 const Dashboard = () => {
   const [loggedInUser, setLoggedInUser] =useContext(UserContext)
   const [selectedDate, setSelectedDate] = useState(new Date());

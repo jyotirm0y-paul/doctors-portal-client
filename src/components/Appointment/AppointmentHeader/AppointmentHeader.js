@@ -5,7 +5,6 @@ import 'react-calendar/dist/Calendar.css'
 
 const AppointmentHeader = ({handleDateChange}) => {
 
-  
   return (
     <main style={{height:'600px'}} className="row d-flex align-items-center">
             <div className="col-md-4 offset-md-1">

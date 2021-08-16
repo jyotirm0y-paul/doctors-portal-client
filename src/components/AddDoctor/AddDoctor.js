@@ -55,7 +55,6 @@ setFile(newFile)
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
-
      </div>
    </section>
   );
